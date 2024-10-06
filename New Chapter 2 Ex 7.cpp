@@ -5,7 +5,11 @@
 using namespace std;
 
 int main() {
-    const double risePerYear = 1.5; // Millimeters per year
+    double risePerYear;
+
+    // Ask users for input
+    cout << "Enter the number of millimeters the ocean level rises per year: ";
+    cin >> risePerYear;
 
     // Calculate the rise for different years
     double riseIn5Years = risePerYear * 5;
